@@ -81,7 +81,7 @@ df.DATE = pd.to_datetime(df['DATE'], format='%Y-%m-%d')
 df.set_index(['DATE'],inplace=True)
 df.DTB3 = pd.to_numeric(df['DTB3'])
 
-#Level axes
+#Label axes
 plt.xlabel('Year')
 plt.ylabel('Yield (%)')
 
