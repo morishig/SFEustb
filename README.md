@@ -12,7 +12,7 @@ interest-rate, plot, short-rate, time-series, visualization, yield'
 
 See also : SFECIRmle, SFEcir, SFEscomCIR
 
-Author : Li Sun; Guillermo Morishige
+Author : Guillermo Morishige
 
 Submitted : Mon, January 7 2019
 
