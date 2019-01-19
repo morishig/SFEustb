@@ -52,9 +52,6 @@ df$DTB3 = as.numeric(levels(df$DTB3))[df$DTB3]
 plot(df$DATE,df$DTB3, type = "l", xlab = "Year", ylab = "Yield(%)", col = "blue3", frame = TRUE, xaxt='n')
 axis.Date (1, at = seq(as.Date("1996-01-01"), as.Date("2016-01-01"), by = "+4 year"))
 
-#Generate grid vertical and horizontal lines
-abline(h = seq(0, 7, by = 1), lty = "dotted", lwd = 0.5, col = "grey")
-abline(v = seq(as.Date("1996-01-01"), as.Date("2016-01-01"), by = "+4 year"), lty = "dotted", lwd = 0.5, col = "grey")
 
 ```
 
@@ -87,5 +84,4 @@ plt.ylabel('Yield (%)')
 
 #Plot, generate grid, and display plot
 plt.plot(df.index,df.DTB3, color='blue')
-plt.grid(linestyle='dotted')
 plt.show()
