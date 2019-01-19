@@ -82,6 +82,6 @@ df.DTB3 = pd.to_numeric(df['DTB3'])
 plt.xlabel('Year')
 plt.ylabel('Yield (%)')
 
-#Plot and display plot
+#Plot and display
 plt.plot(df.index,df.DTB3, color='blue')
 plt.show()
