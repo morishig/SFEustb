@@ -22,7 +22,6 @@ plt.ylabel('Yield (%)')
 
 #Plot, generate grid, and display plot
 plt.plot(df.index,df.DTB3, color='blue')
-plt.grid(linestyle='dotted')
 plt.show()
 
 
